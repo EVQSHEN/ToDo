@@ -48,11 +48,14 @@ h1{
    color: #17171A;
 }
 
-.submit {
+.submit, .sort, .dellAll {
    width: 100px;
    height: 20px;
    padding: 0px 8px;
    border-radius: 3px;
+   -moz-border-radius: 3px; /* Firefox */
+   -webkit-border-radius: 3px; /* Safari, Chrome */
+   -khtml-border-radius: 3px; /* KHTML */
    background: #fd72483f;
    color: #FD7348;
    border: 1px solid #fd724833;
@@ -66,10 +69,6 @@ h1{
    width: 110px;
 }
 
-.submit:active{
-   transition-duration: 0.1s;
-   border: 1px solid #FD7348;
-}
 
 .btnEdit {
    display: flex;
@@ -77,39 +76,24 @@ h1{
    margin: 0px 10px 2px;
 }
 
-.sort{
-   width: 100px;
-   height: 20px;
-   padding: 0px 8px;
-   border-radius: 3px;
-   background: #fd72483f;
-   color: #FD7348;
-   border: 1px solid #fd724833;
-   font-weight: 600;
-   transition-duration: 0.5s;
-}
 
-.sort:active{
+.sort:active, 
+.dellAll:active, 
+.submit:active {
    transition-duration: 0.1s;
    border: 1px solid #FD7348;
 }
 
-.dellAll{
-   width: 100px;
-   height: 20px;
-   padding: 0px 8px;
-   border-radius: 3px;
-   background: #fd72483f;
-   color: #FD7348;
-   border: 1px solid #fd724833;
-   font-weight: 600;
-   transition-duration: 0.5s;
-}
 
-.dellAll:active{
-   transition-duration: 0.1s;
-   border: 1px solid #FD7348;
-}
+
+
+
+
+
+
+
+
+
 
 .OutpArea {
    width: 100%;
