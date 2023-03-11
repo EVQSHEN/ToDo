@@ -3,7 +3,6 @@ body {
    background-color: #17171A;
    color: #EAEDF2;
    font-family: sans-serif;
-
 }
 
 .wrapper {
@@ -48,54 +47,23 @@ h1{
    color: #17171A;
 }
 
-.submit {
+.submit, .sort, .dellAll {
    width: 100px;
    height: 20px;
    padding: 0px 8px;
    border-radius: 3px;
-   -moz-border-radius: 3px; /* Firefox */
-   -webkit-border-radius: 3px; /* Safari, Chrome */
-   -khtml-border-radius: 3px; /* KHTML */
    background: #fd72483f;
    color: #FD7348;
    border: 1px solid #fd724833;
    font-weight: 600;
    transition-duration: 0.5s;
 }
-.sort {
-   width: 100px;
-   height: 20px;
-   padding: 0px 8px;
-   border-radius: 3px;
-   -moz-border-radius: 3px; /* Firefox */
-   -webkit-border-radius: 3px; /* Safari, Chrome */
-   -khtml-border-radius: 3px; /* KHTML */
-   background: #fd72483f;
-   color: #FD7348;
-   border: 1px solid #fd724833;
-   font-weight: 600;
-   transition-duration: 0.5s;
-}
-.dellAll {
-   width: 100px;
-   height: 20px;
-   padding: 0px 8px;
-   border-radius: 3px;
-   -moz-border-radius: 3px; /* Firefox */
-   -webkit-border-radius: 3px; /* Safari, Chrome */
-   -khtml-border-radius: 3px; /* KHTML */
-   background: #fd72483f;
-   color: #FD7348;
-   border: 1px solid #fd724833;
-   font-weight: 600;
-   transition-duration: 0.5s;
-}
+
 .submit:hover{
    transition:linear;
    transition-duration: 0.3s;
    width: 110px;
 }
-
 
 .btnEdit {
    display: flex;
@@ -103,24 +71,12 @@ h1{
    margin: 0px 10px 2px;
 }
 
-
 .sort:active, 
 .dellAll:active, 
 .submit:active {
    transition-duration: 0.1s;
    border: 1px solid #FD7348;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .OutpArea {
    width: 100%;
@@ -202,21 +158,17 @@ border-left: 8px solid #63F4F7;
          height: 30px;
       }
 
-
-
    .OutpArea {
       padding: 20px 3px;
       margin: 40px 0px;
-
    }
+   
    .btnEdit {
-
       margin: 0px 4px 2px;
    }
 
    .outpLi li {
       padding: 13px 6px ;
       margin: 7px 4px;
-
    }
 }
