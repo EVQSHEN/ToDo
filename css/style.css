@@ -48,7 +48,7 @@ h1{
    color: #17171A;
 }
 
-.submit, .sort, .dellAll {
+.submit {
    width: 100px;
    height: 20px;
    padding: 0px 8px;
@@ -62,7 +62,34 @@ h1{
    font-weight: 600;
    transition-duration: 0.5s;
 }
-
+.sort {
+   width: 100px;
+   height: 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   -moz-border-radius: 3px; /* Firefox */
+   -webkit-border-radius: 3px; /* Safari, Chrome */
+   -khtml-border-radius: 3px; /* KHTML */
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
+.dellAll {
+   width: 100px;
+   height: 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   -moz-border-radius: 3px; /* Firefox */
+   -webkit-border-radius: 3px; /* Safari, Chrome */
+   -khtml-border-radius: 3px; /* KHTML */
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
 .submit:hover{
    transition:linear;
    transition-duration: 0.3s;
