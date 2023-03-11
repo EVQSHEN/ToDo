@@ -1,0 +1,211 @@
+@import "reset.css";
+body {   
+   background-color: #17171A;
+   color: #EAEDF2;
+   font-family: sans-serif;
+
+}
+
+.wrapper {
+max-width: 620px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 20px;
+}
+
+h1{
+   text-align: center;
+   margin: 0px 0px 40px;
+   font-size: 32px;
+   font-weight: 700;
+}
+
+.inpArea {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 74.627%;
+   height: 140px;
+   padding: 20px 0px 0px;
+   border-radius: 8px;
+   background-color: rgb(53, 53, 63);
+}
+
+.inpArea p{
+   margin: 0px 0px 20px;
+   font-weight: 700;
+}
+
+.message {
+   width: 80%;
+   height: 20px;
+   margin: 0px 0px 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   background: #EAEDF2;
+   color: #17171A;
+}
+
+.submit {
+   width: 100px;
+   height: 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
+
+.submit:hover{
+   transition:linear;
+   transition-duration: 0.3s;
+   width: 110px;
+}
+
+.submit:active{
+   transition-duration: 0.1s;
+   border: 1px solid #FD7348;
+}
+
+.btnEdit {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 10px 2px;
+}
+
+.sort{
+   width: 100px;
+   height: 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
+
+.sort:active{
+   transition-duration: 0.1s;
+   border: 1px solid #FD7348;
+}
+
+.dellAll{
+   width: 100px;
+   height: 20px;
+   padding: 0px 8px;
+   border-radius: 3px;
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
+
+.dellAll:active{
+   transition-duration: 0.1s;
+   border: 1px solid #FD7348;
+}
+
+.OutpArea {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 10px;
+   margin: 40px 0px;
+   border-radius: 8px;
+   background-color: rgb(53, 53, 63);
+}
+
+.outpLi li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 13px 10px ;
+   margin: 7px 10px;
+   border-radius: 4px;
+   color: #EAEDF2;
+   background-color: #17171A;
+}
+
+.outpLi span{
+   max-width: 410px;
+   width: 68%;
+   word-wrap: break-word
+}
+
+.outpLiFalse{
+   border-radius: 4px;
+   border-left: 8px solid #EC4265; ;
+   }
+
+.outpLiTrue{
+border-radius: 4px;
+border-left: 8px solid #63F4F7;
+}
+
+.complite {
+   width: 40px;
+   height: 22px;
+   border-radius: 3px;
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   transition-duration: 0.5s;
+}
+
+.complite:active{
+   transition-duration: 0.1s;
+   border: 1px solid #FD7348;
+}
+
+.delete {
+   width: 40px;
+   height: 22px;
+   border-radius: 3px;
+   background: #fd72483f;
+   color: #FD7348;
+   border: 1px solid #fd724833;
+   font-weight: 600;
+   transition-duration: 0.5s;
+}
+
+.delete:active{
+   transition-duration: 0.1s;
+   border: 1px solid #FD7348;
+}
+
+
+
+@media screen and (max-width: 450px) {
+   .wrapper {
+      padding: 40px 10px;
+      }
+
+      .message {
+         width: 90%;
+         height: 30px;
+      }
+
+
+
+   .OutpArea {
+      padding: 20px 3px;
+      margin: 40px 0px;
+
+   }
+   .btnEdit {
+
+      margin: 0px 4px 2px;
+   }
+
+   .outpLi li {
+      padding: 13px 6px ;
+      margin: 7px 4px;
+
+   }
+}
